@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alejandro Martínez del Castillo — Data Scientist & Software Engineer</title>
+  <meta name="description" content="Portfolio of Alejandro Martínez del Castillo, Computer Engineering & Mathematics graduate and MSc student in Data Science. Open to internships and junior roles as Software Engineer, Data Analyst or Data Scientist.">
+  <meta name="author" content="Alejandro Martínez del Castillo">
+
+  <link rel="canonical" href="https://alexmrtneez.github.io/">
+  <link rel="alternate" hreflang="en" href="https://alexmrtneez.github.io/">
+  <link rel="alternate" hreflang="es" href="https://alexmrtneez.github.io/es/">
+  <link rel="alternate" hreflang="x-default" href="https://alexmrtneez.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexmrtneez.github.io/">
+  <meta property="og:title" content="Alejandro Martínez del Castillo — Data Scientist & Software Engineer">
+  <meta property="og:description" content="Data pipelines, analytical tools and reliable software. Open to internships and junior roles.">
+  <meta property="og:image" content="https://alexmrtneez.github.io/assets/img/og-image.png">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Apply saved theme before first paint (avoids a flash of the wrong theme) -->
+  <script>
+    try { var th = localStorage.getItem("theme"); if (th === "dark" || th === "light") document.documentElement.setAttribute("data-theme", th); } catch (e) {}
+  </script>
+</head>
+<body>
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.24-8 5-8-5V6l8 5 8-5v2.24Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></symbol>
+    <symbol id="i-lang" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.93 8ZM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96ZM4.26 14a8.2 8.2 0 0 1 0-4h3.38a16.5 16.5 0 0 0 0 4H4.26Zm.81 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.99 7.99 0 0 1 5.07 16Zm2.95-8H5.07a7.99 7.99 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.02 8ZM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82A14.1 14.1 0 0 1 12 19.96ZM14.34 14H9.66a14.7 14.7 0 0 1 0-4h4.68a14.7 14.7 0 0 1 0 4Zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56ZM16.36 14a16.5 16.5 0 0 0 0-4h3.38a8.2 8.2 0 0 1 0 4h-3.38Z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4Zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4Z"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7ZM19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7Z"/></symbol>
+    <symbol id="i-data" viewBox="0 0 24 24"><path d="M12 2C7.58 2 4 3.79 4 6v12c0 2.21 3.58 4 8 4s8-1.79 8-4V6c0-2.21-3.58-4-8-4Zm6 16c0 .5-2.13 2-6 2s-6-1.5-6-2v-2.23c1.61.78 3.72 1.23 6 1.23s4.39-.45 6-1.23V18Zm0-4.55c-1.3.95-3.58 1.55-6 1.55s-4.7-.6-6-1.55V10.6c1.61.79 3.72 1.4 6 1.4s4.39-.61 6-1.4v2.85ZM12 10c-3.87 0-6-1.5-6-2s2.13-2 6-2 6 1.5 6 2-2.13 2-6 2Z"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 16.54-7.37-5.73L3 12.07l9 7 9-7-1.64-1.27L12 16.54ZM12 14l7.36-5.73L21 7l-9-7-9 7 1.63 1.27L12 14Z"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24"><path d="m22.7 19-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4Z"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 14H4V8h16v10ZM7.5 17l-1.41-1.41L8.67 13l-2.59-2.59L7.5 9l4 4-4 4Zm4.5 0h6v-2h-6v2Z"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1Z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10ZM2 13h2a1 1 0 0 0 0-2H2a1 1 0 0 0 0 2Zm18 0h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2ZM11 2v2a1 1 0 0 0 2 0V2a1 1 0 0 0-2 0Zm0 18v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-2 0ZM5.99 4.58a1 1 0 0 0-1.41 1.41l1.06 1.06a1 1 0 0 0 1.41-1.41L5.99 4.58Zm12.37 12.37a1 1 0 0 0-1.41 1.41l1.06 1.06a1 1 0 0 0 1.41-1.41l-1.06-1.06Zm1.06-10.96a1 1 0 0 0-1.41-1.41l-1.06 1.06a1 1 0 0 0 1.41 1.41l1.06-1.06ZM7.05 18.36a1 1 0 0 0-1.41-1.41l-1.06 1.06a1 1 0 0 0 1.41 1.41l1.06-1.06Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#top">Alejandro<span>.</span></a>
+      <nav aria-label="Main">
+        <ul class="nav__menu" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <span aria-current="true">EN</span>
+          <a href="es/" hreflang="es" lang="es" data-lang-link>ES</a>
+        </div>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+        <button class="icon-btn nav__toggle" id="nav-toggle" type="button" aria-controls="nav-menu" aria-expanded="false" aria-label="Open menu">
+          <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="hero__eyebrow">Open to internships &amp; junior roles</p>
+        <h1>Alejandro Martínez del Castillo</h1>
+        <p class="hero__title">Data Scientist &amp; Software Engineer · MSc student</p>
+        <p class="hero__lead">
+          Computer Engineering &amp; Mathematics graduate who builds data pipelines, analytical tools and
+          reliable software. I combine a solid mathematical background with hands-on engineering to turn
+          raw data into decisions.
+        </p>
+        <div class="hero__meta">
+          <span><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Granada, Spain · Open to relocation</span>
+          <!-- TODO: adjust language levels (e.g. English C1) -->
+          <span><svg class="icon" aria-hidden="true"><use href="#i-lang"/></svg> Spanish (native) · English (TODO: level)</span>
+        </div>
+        <div class="btn-row">
+          <!-- TODO: replace with your email -->
+          <a class="btn btn--primary" href="mailto:TODO@example.com">
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> Email me
+          </a>
+          <!-- TODO: replace with your LinkedIn URL -->
+          <a class="btn" href="https://www.linkedin.com/in/TODO" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/alexmrtneez" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section section--alt about" id="about">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__kicker">About</p>
+          <h2>Bridging software engineering and data science</h2>
+        </div>
+        <p>
+          I am a <strong>Master's student in Data Science &amp; Computer Engineering</strong> at the University of Granada,
+          with a <strong>Double Degree in Computer Engineering and Mathematics</strong>. I enjoy building systems that are
+          both well engineered and data-driven: from end-to-end pipelines that clean and structure real-world
+          sensor data, to interactive applications for statistical analysis.
+        </p>
+        <p>
+          During a six-month <strong>research grant</strong> I designed the data pipeline for a wearable-based stress
+          study. I am now looking for an <strong>internship or junior position</strong> as a Software Engineer, Data Analyst
+          or Data Scientist where I can keep learning and add value from day one.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__kicker">Education</p>
+          <h2>Academic background</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <article class="card entry">
+              <div class="entry__top">
+                <h3>MSc in Data Science and Computer Engineering</h3>
+                <span class="entry__date">TODO: 2026 – Present</span>
+              </div>
+              <p class="entry__org">University of Granada · Granada, Spain</p>
+              <!-- TODO: optional — key modules, e.g. Machine Learning, Big Data, Deep Learning -->
+              <p>Advanced training in machine learning, data mining, big data technologies and high-performance computing.</p>
+            </article>
+          </li>
+          <li class="timeline__item">
+            <article class="card entry">
+              <div class="entry__top">
+                <h3>Double Bachelor's Degree in Computer Engineering and Mathematics</h3>
+                <span class="entry__date">TODO: 20XX – 2026</span>
+              </div>
+              <p class="entry__org">University of Granada · Granada, Spain</p>
+              <p>
+                Bachelor's thesis: <em>Omics analysis, random fields and spatial transcriptomics</em> — theory plus an
+                interactive R Shiny application to simulate and analyse omics and spatial transcriptomics data
+                (<a href="#projects">see project</a>).
+              </p>
+              <!-- TODO: optional — GPA, honours, thesis grade -->
+            </article>
+          </li>
+          <li class="timeline__item">
+            <article class="card entry">
+              <div class="entry__top">
+                <h3>Erasmus+ Exchange Programme</h3>
+                <span class="entry__date">2024 – 2025</span>
+              </div>
+              <p class="entry__org">University of Łódź · Łódź, Poland</p>
+              <p>Courses taught in English, including Artificial Intelligence in Computer Games. <!-- TODO: confirm details --></p>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__kicker">Experience</p>
+          <h2>Professional experience</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <article class="card entry">
+              <div class="entry__top">
+                <h3>Research Assistant (Research Grant)</h3>
+                <span class="entry__date">TODO: Mon 2026 – Mon 2026 · 6 months</span>
+              </div>
+              <!-- TODO: research group / department and supervisor (optional) -->
+              <p class="entry__org">University of Granada · TODO: research group or department</p>
+              <p>
+                Research study assessing visitors' stress levels at the Parque de las Ciencias (Granada) before and after
+                the installation of accessible signage, using Empatica EmbracePlus wearable wristbands.
+              </p>
+              <ul>
+                <li>Designed and implemented an <strong>end-to-end data pipeline</strong> (Bash + Python) that downloads raw recordings from <strong>AWS S3</strong>, converts AVRO files into per-sensor CSV datasets and segments them by participant.</li>
+                <li>Computed pulse rate from systolic peaks and synchronised the evaluator's event tags (56-milestone protocol) with participants' EDA, accelerometer and temperature signals.</li>
+                <li>Produced per-phase visualisations of the biometric signals to support the pre/post comparison of stress responses.</li>
+                <li>Documented the workflow in English and Spanish so the research team can reproduce it.</li>
+                <!-- TODO: add measurable outcomes (e.g. number of participants/sessions processed, time saved, publications) -->
+              </ul>
+              <ul class="tags" aria-label="Technologies">
+                <li class="tag">Python</li><li class="tag">pandas</li><li class="tag">NumPy</li><li class="tag">Matplotlib</li>
+                <li class="tag">Seaborn</li><li class="tag">Bash</li><li class="tag">AWS S3</li><li class="tag">Apache Avro</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__kicker">Skills</p>
+          <h2>What I work with</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="card">
+            <h3><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg> Programming languages</h3>
+            <ul class="tags">
+              <li class="tag">Python</li><li class="tag">R</li><li class="tag">C++</li><li class="tag">C</li>
+              <li class="tag">Java</li><li class="tag">SQL</li><li class="tag">JavaScript</li><li class="tag">PHP</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3><svg class="icon" aria-hidden="true"><use href="#i-data"/></svg> Data science &amp; ML</h3>
+            <ul class="tags">
+              <li class="tag">pandas</li><li class="tag">NumPy</li><li class="tag">scikit-learn</li><li class="tag">Matplotlib</li>
+              <li class="tag">Seaborn</li><li class="tag">ggplot2</li><li class="tag">R Shiny</li><li class="tag">Statistics</li>
+              <li class="tag">Optimisation algorithms</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg> Software engineering</h3>
+            <ul class="tags">
+              <li class="tag">OOP</li><li class="tag">Design patterns</li><li class="tag">Multi-agent systems (JADE)</li>
+              <li class="tag">Search &amp; game AI</li><li class="tag">MySQL</li><li class="tag">HTML/CSS</li><li class="tag">Twig</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3><svg class="icon" aria-hidden="true"><use href="#i-tools"/></svg> Tools &amp; platforms</h3>
+            <ul class="tags">
+              <li class="tag">Git &amp; GitHub</li><li class="tag">Docker</li><li class="tag">Linux</li><li class="tag">Bash</li>
+              <li class="tag">AWS S3</li><li class="tag">CMake</li><li class="tag">Agile (Scrum)</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="skills-sub">Soft skills</h3>
+        <!-- TODO: review and adapt to what best describes you -->
+        <ul class="soft-list">
+          <li class="card"><strong>Analytical problem-solving</strong><span>Mathematical rigour applied to real engineering and data problems.</span></li>
+          <li class="card"><strong>Teamwork</strong><span>Collaborative university projects using Agile (Scrum) practices.</span></li>
+          <li class="card"><strong>Communication</strong><span>Clear documentation and presentation of technical results to researchers.</span></li>
+          <li class="card"><strong>Autonomy</strong><span>Owned a research data pipeline end to end during my grant.</span></li>
+          <li class="card"><strong>Adaptability</strong><span>Studied abroad in an international, English-speaking environment.</span></li>
+          <li class="card"><strong>Continuous learning</strong><span>Always picking up new tools, from multi-agent systems to cloud storage.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__kicker">Projects</p>
+          <h2>Selected work</h2>
+        </div>
+        <div class="projects-grid">
+
+          <article class="card project project--featured">
+            <span class="project__label">Featured · Research grant</span>
+            <h3>Physiological Data Pipeline for Stress Assessment</h3>
+            <p>
+              End-to-end pipeline that turns raw Empatica EmbracePlus recordings into clean, per-participant datasets and
+              figures for a field study on the impact of accessible signage on visitors' stress.
+            </p>
+            <ol class="pipeline" aria-label="Pipeline stages">
+              <li>S3 download</li><li>AVRO → CSV</li><li>Per-participant trim</li><li>Tag labelling</li><li>Visualisation</li>
+            </ol>
+            <ul class="project__points">
+              <li>Handles two wristbands per session: participant signals (EDA, pulse, accelerometer, temperature) and evaluator event tags.</li>
+              <li>Derives pulse rate from systolic peaks and maps a 56-milestone protocol onto the signals.</li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li class="tag">Python</li><li class="tag">pandas</li><li class="tag">NumPy</li><li class="tag">Matplotlib</li><li class="tag">Seaborn</li><li class="tag">Bash</li><li class="tag">AWS S3</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/alexmrtneez/empaticaDataManipulation" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <span class="project__label">Bachelor's thesis</span>
+            <h3>Spatial Transcriptomics Web App</h3>
+            <p>Interactive web application to simulate, manipulate and analyse omics data, random fields and spatial transcriptomics in an accessible way.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li class="tag">R</li><li class="tag">Shiny</li><li class="tag">ggplot2</li><li class="tag">bslib</li><li class="tag">DT</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://alejandromtnez.shinyapps.io/tfg-app2526/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg> Live demo</a>
+              <a href="https://github.com/alexmrtneez/tfg-spatial-transcriptomics-app" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <span class="project__label">Full-stack web</span>
+            <h3>LAMP News Portal</h3>
+            <p>Municipal news portal with a PHP/MySQL backend and Twig templates, fully containerised with Docker Compose for a one-command setup.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li class="tag">PHP</li><li class="tag">MySQL</li><li class="tag">Twig</li><li class="tag">JavaScript</li><li class="tag">Docker</li><li class="tag">Apache</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/alexmrtneez/lamp-web-site" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <span class="project__label">Multi-agent systems</span>
+            <h3>Agent Communication Protocol</h3>
+            <p>Multi-agent system in which autonomous agents cooperate through FIPA-ACL messaging, with several navigation policies, energy constraints and a visual GUI.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li class="tag">Java</li><li class="tag">JADE</li><li class="tag">FIPA-ACL</li><li class="tag">OOP</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/alexmrtneez/P3-DBA" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <span class="project__label">Optimisation · Erasmus</span>
+            <h3>Genetic Algorithm — Game of Words</h3>
+            <p>Genetic algorithm that finds the longest dictionary word from a set of letters, with roulette selection, two-point crossover and custom mutation operators over a 121k-word dictionary.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li class="tag">C++</li><li class="tag">Genetic algorithms</li><li class="tag">OOP</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/alexmrtneez/Genetic-algorithm" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <span class="project__label">Game AI</span>
+            <h3>Adversarial Search Agent for Parchís</h3>
+            <p>AI player for the board game Parchís that uses Minimax with alpha-beta pruning (depth 6) and a custom heuristic to choose its moves against other agents.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li class="tag">C++</li><li class="tag">Alpha-beta pruning</li><li class="tag">Heuristics</li><li class="tag">CMake</li>
+            </ul>
+            <div class="project__links">
+              <a href="https://github.com/alexmrtneez/busqueda-adversario" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Code</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="section__kicker">Contact</p>
+        <h2>Let's talk</h2>
+        <p>I'm currently looking for internships and junior roles in software engineering and data science. Feel free to reach out.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="mailto:TODO@example.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/TODO" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn</a>
+          <a class="btn" href="https://github.com/alexmrtneez" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year">2026</span> Alejandro Martínez del Castillo</span>
+      <span>Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
