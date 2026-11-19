@@ -1,0 +1,11 @@
+# Claude Code / agent files
+CLAUDE.md
+.claude/
+
+# Images not used by the site (foto_cv.jpg is the private original photo)
+assets/img/foto_cv.jpg
+
+# Python cache
+__pycache__/
+
+update-cv.sh
